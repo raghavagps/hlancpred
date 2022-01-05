@@ -19,26 +19,27 @@ Following is complete list of all options, you may get these options by "python 
 
 ## Usage
 #### hlancpred.py [-h] -i INPUT -a {G0101,G0103,G0104,E0101,E0103} [-o OUTPUT] [-j {1,2}] [-w {8,9,10,11,12,13,14,15}] [-d {1,2}]
-======================================
+
+
 ### Please provide following arguments
 ======================================
 
-## optional arguments:
-  #### -h, --help            show this help message and exit
+## Optional arguments:
+  >#### -h, --help            show this help message and exit
   
-  #### -i INPUT, --input INPUT
+  >#### -i INPUT, --input INPUT
   Input: protein or peptide sequence in FASTA format or single sequence per line in single letter code
                         
-  #### -a {G0101,G0103,G0104,E0101,E0103}, --allele {G0101,G0103,G0104,E0101,E0103}
+  >#### -a {G0101,G0103,G0104,E0101,E0103}, --allele {G0101,G0103,G0104,E0101,E0103}
   Please provide the name of allele for the prediction of binder peptides
                         
-  ### -o OUTPUT, --output OUTPUT
+  >#### -o OUTPUT, --output OUTPUT
   Output: File for saving results by default outfile.csv
-  ### -j {1,2}, --job {1,2}
+  >#### -j {1,2}, --job {1,2}
   Job Type: 1:predict, and 2:scan, by default 1
-  ### -w {8,9,10,11,12,13,14,15}, --winleng {8,9,10,11,12,13,14,15}
+  >#### -w {8,9,10,11,12,13,14,15}, --winleng {8,9,10,11,12,13,14,15}
   Window Length: 8 to 35 (scan mode only), by default 9
-  ### -d {1,2}, --display {1,2}
+  >#### -d {1,2}, --display {1,2}
   Display: 1:Only binders, 2: All peptides, by default 1
 
 ## **Input File:** 
@@ -46,11 +47,8 @@ It allow users to provide input in two format; i) FASTA format (standard) and ii
 
 
 ## **Note:**
-
-
-1: In case of predict and design module (job), the length of peptide should be upto 15 amino acids. If a sequence with length more than 15 will be provided, the program will take first 15 residues, and ignore the rest. In case of scan module, minimum length of protein/peptide sequence should be equal to window length (pattern), see peptide.fa.
-
-2: Program will ignore peptides having length less than 8 residues (e.g., protein.fa).
+>1: In case of predict and design module (job), the length of peptide should be upto 15 amino acids. If a sequence with length more than 15 will be provided, the program will take first 15 residues, and ignore the rest. In case of scan module, minimum length of protein/peptide sequence should be equal to window length (pattern), see peptide.fa.
+>2: Program will ignore peptides having length less than 8 residues (e.g., protein.fa).
 
 ## **Output File:** 
 Program will save the results in the CSV format, in case user do not provide output file name, it will be stored in "outfile.csv".
@@ -61,22 +59,22 @@ The program needs the name of the allele as shown in the usage, it could be G010
 ## HLAncPred Package Files
 It contantain following files, brief descript of these files given below
 
-INSTALLATION  			: Installations instructions
+>INSTALLATION  			: Installations instructions
 
-LICENSE       			: License information
+>LICENSE       			: License information
 
-README.md     			: This file provide information about this package
+>README.md     			: This file provide information about this package
 
-Models           		: This folder comprises for five models devoted to five alleles
+>Models           		: This folder comprises for five models devoted to five alleles
 
-hlancpred.py 			: Main python program 
+>hlancpred.py 			: Main python program 
 
-peptide.fa			: Example file contain peptide sequenaces in FASTA format
+>peptide.fa			: Example file contain peptide sequenaces in FASTA format
 
-peptide.seq			: Example file contain peptide sequenaces in simple format
+>peptide.seq			: Example file contain peptide sequenaces in simple format
 
-protein.fa			: Example file contain protein sequenaces in FASTA format 
+>protein.fa			: Example file contain protein sequenaces in FASTA format 
 
-example_predict_output.csv	: Example output file for predict module
+>example_predict_output.csv	: Example output file for predict module
 
-example_scan_output.csv		: Example output file for scan module
+>example_scan_output.csv		: Example output file for scan module

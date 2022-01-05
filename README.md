@@ -23,29 +23,31 @@ Following is complete list of all options, you may get these options by "python 
 
 ### Please provide following arguments
 ======================================
--------------------------------------------------------------------------
-
+```
 ## Optional arguments:
 
-  ##### -h, --help            
-  >show this help message and exit
+ -h, --help            
+      show this help message and exit
   
-  ##### -i INPUT, --input INPUT
-  >Input: protein or peptide sequence in FASTA format or single sequence per line in single letter code
+  -i INPUT, --input INPUT
+      Input: protein or peptide sequence in FASTA format or single sequence per line in single letter code
                         
-  ##### -a {G0101,G0103,G0104,E0101,E0103}, --allele {G0101,G0103,G0104,E0101,E0103}
-  >Please provide the name of allele for the prediction of binder peptides
+  -a {G0101,G0103,G0104,E0101,E0103}, --allele {G0101,G0103,G0104,E0101,E0103}
+      Please provide the name of allele for the prediction of binder peptides
                         
-  ##### -o OUTPUT, --output OUTPUT
-  >Output: File for saving results by default outfile.csv
-  ##### -j {1,2}, --job {1,2}
-  >Job Type: 1:predict, and 2:scan, by default 1
-  ##### -w {8,9,10,11,12,13,14,15}, --winleng {8,9,10,11,12,13,14,15}
-  >Window Length: 8 to 35 (scan mode only), by default 9
-  ##### -d {1,2}, --display {1,2}
-  >Display: 1:Only binders, 2: All peptides, by default 
+  -o OUTPUT, --output OUTPUT
+      Output: File for saving results by default outfile.csv
+      
+  -j {1,2}, --job {1,2}
+      Job Type: 1:predict, and 2:scan, by default 1
+      
+  -w {8,9,10,11,12,13,14,15}, --winleng {8,9,10,11,12,13,14,15}
+      Window Length: 8 to 35 (scan mode only), by default 9
+      
+  -d {1,2}, --display {1,2}
+      Display: 1:Only binders, 2: All peptides, by default 
   
--------------------------------------------------------------------------
+  ```
 
 
 ## **Input File:** 
@@ -62,6 +64,7 @@ Program will save the results in the CSV format, in case user do not provide out
 ## **Allele:** 
 The program needs the name of the allele as shown in the usage, it could be G0101, G0103, G0104, E0101, and E0103.
 
+```
 ## HLAncPred Package Files
 It contantain following files, brief descript of these files given below
 
@@ -84,7 +87,9 @@ It contantain following files, brief descript of these files given below
 - example_predict_output.csv	: Example output file for predict module
 
 - example_scan_output.csv		: Example output file for scan module
--------------------------------------------------------------------
+
+```
+
 ## Address for contact
 ##### Prof. G. P. S. Raghava, Head Department of Computational Biology,            
 ##### Indraprastha Institute of Information Technology (IIIT), 

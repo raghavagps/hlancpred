@@ -24,12 +24,12 @@ Following is complete list of all options, you may get these options by "python 
 ======================================
 
 ## optional arguments:
-  ### -h, --help            show this help message and exit
+  #### -h, --help            show this help message and exit
   
-  ### -i INPUT, --input INPUT
+  #### -i INPUT, --input INPUT
   Input: protein or peptide sequence in FASTA format or single sequence per line in single letter code
                         
-  ### -a {G0101,G0103,G0104,E0101,E0103}, --allele {G0101,G0103,G0104,E0101,E0103}
+  #### -a {G0101,G0103,G0104,E0101,E0103}, --allele {G0101,G0103,G0104,E0101,E0103}
   Please provide the name of allele for the prediction of binder peptides
                         
   ### -o OUTPUT, --output OUTPUT

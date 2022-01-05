@@ -78,3 +78,9 @@ It contantain following files, brief descript of these files given below
 >example_predict_output.csv	: Example output file for predict module
 
 >example_scan_output.csv		: Example output file for scan module
+
+# Address for contact
+Prof. G. P. S. Raghava, Head Department of Computational Biology,            
+Indraprastha Institute of Information Technology (IIIT), 
+Okhla Phase III, New Delhi 110020 ; Phone:+91-11-26907444; 
+Email: raghava@iiitd.ac.in  Web: http://webs.iiitd.edu.in/raghava/

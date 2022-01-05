@@ -1,0 +1,8 @@
+# Sequence_ID, Sequence, Prediction, Score
+>Query_1,HIAKALAL,HLA-G*01:01 Binder,0.98
+>Query_2,HIAQGLRL,HLA-G*01:01 Binder,0.98
+>Query_3,HKPGPITL,HLA-G*01:01 Binder,0.98
+>Query_4,HMAVAFVL,HLA-G*01:01 Binder,0.97
+>Query_5,SDFHQSMAQWLAY,HLA-G*01:01 Non-binder,0.11
+>Query_6,LYATEGQSVSMME,HLA-G*01:01 Non-binder,0.11
+>Query_7,SNTTLHATTIYAV,HLA-G*01:01 Non-binder,0.22

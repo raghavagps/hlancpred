@@ -1,0 +1,16 @@
+# Sequence_ID, pattern, Prediction, Score
+>Query_5,SDFHQSMAQ,HLA-G*01:01 Non-binder,0.00
+>Query_5,DFHQSMAQW,HLA-G*01:01 Non-binder,0.00
+>Query_5,FHQSMAQWL,HLA-G*01:01 Non-binder,0.08
+>Query_5,HQSMAQWLA,HLA-G*01:01 Non-binder,0.02
+>Query_5,QSMAQWLAY,HLA-G*01:01 Non-binder,0.00
+>Query_6,LYATEGQSV,HLA-G*01:01 Non-binder,0.01
+>Query_6,YATEGQSVS,HLA-G*01:01 Non-binder,0.01
+>Query_6,ATEGQSVSM,HLA-G*01:01 Non-binder,0.01
+>Query_6,TEGQSVSMM,HLA-G*01:01 Non-binder,0.01
+>Query_6,EGQSVSMME,HLA-G*01:01 Non-binder,0.00
+>Query_7,SNTTLHATT,HLA-G*01:01 Non-binder,0.01
+>Query_7,NTTLHATTI,HLA-G*01:01 Non-binder,0.03
+>Query_7,TTLHATTIY,HLA-G*01:01 Non-binder,0.08
+>Query_7,TLHATTIYA,HLA-G*01:01 Non-binder,0.02
+>Query_7,LHATTIYAV,HLA-G*01:01 Non-binder,0.00

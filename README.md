@@ -2,6 +2,9 @@
 ## Introduction
 HLAncPred is developed for predicting and scanning the peptides with the ability to bind non-classical class-I HLA alleles such as HLA-G\*01:01,HLA-G\*01:03,HLA-G\*01:04, HLA-E\*01:01, HLA-E\*01:03 . More information on HLAncPred is available from its web-server https://webs.iiitd.edu.in/raghava/hlancpred/stand.html. This page provides information about stnadalone version of HLAncPred. Please read/cite the content about the HLAncPred for complete information including algorithm behind HLAncPred.
 
+##  Reference
+ Dhall A, Patiyal S, Raghava GPS (2022) HLAncPred: a method for predicting promiscuous non-classical HLA binding sites. <a href="https://pubmed.ncbi.nlm.nih.gov/35580839/">Brief Bioinform. doi: 10.1093/bib/bbac192</a>
+ 
 ## Models
 In this program, five best models devoted to each allele, have been implemented for predicting the non-classical class-I HLA binder peptides. The models were trained on experimentally verified binders and randomly generated non-binders using Swiss-Prot database.
 

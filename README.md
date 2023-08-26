@@ -5,10 +5,15 @@ HLAncPred is developed for predicting and scanning the peptides with the ability
 ##  Reference
  Dhall A, Patiyal S, Raghava GPS (2022) HLAncPred: a method for predicting promiscuous non-classical HLA binding sites. <a href="https://pubmed.ncbi.nlm.nih.gov/35580839/">Brief Bioinform. doi: 10.1093/bib/bbac192</a>
  
-## PIP Installation
-PIP package is available you can install this package using
+## Pip installation
+The pip version of HLAncpred is also available for easy installation and usage of the tool. The following command is required to install the package 
+```
 pip install hlancpred
+```
+To know about the available option for the pip package, type the following command:
+```
 hlancpred -h
+```
 
 ## Models
 In this program, five best models devoted to each allele, have been implemented for predicting the non-classical class-I HLA binder peptides. The models were trained on experimentally verified binders and randomly generated non-binders using Swiss-Prot database.
